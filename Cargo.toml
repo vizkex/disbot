@@ -7,3 +7,4 @@ edition = "2021"
 serenity = {version = "0.12.2", features = ["full"]}
 tokio = {version = "1.38.1", features = ["full"]}
 dotenv = "0.15"
+rand = "0.8.5"
