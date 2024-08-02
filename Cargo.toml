@@ -1,10 +1,13 @@
 [package]
+edition = "2021"
 name = "disbot"
 version = "0.1.0"
-edition = "2021"
 
 [dependencies]
-serenity = {version = "0.12.2", features = ["full"]}
+dotenv = "0.15" 
+env_logger = "0.9" 
+log = "0.4" 
+poise = "0.6.1" # Use the latest version available
+rand = "0.8.5" 
+serenity = {version = "0.12.1", features = ["full"]} 
 tokio = {version = "1.38.1", features = ["full"]}
-dotenv = "0.15"
-rand = "0.8.5"

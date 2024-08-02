@@ -1,0 +1,7 @@
+# fn_params_layout = ""
+# format_macro_bodies = "false"
+# fn_single_line = "true"
+# format_strings = "true"
+imports_indent = "Visual"
+imports_layout ="HorizontalVertical"
+Array = "Visual"
