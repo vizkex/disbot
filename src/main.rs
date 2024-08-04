@@ -1,9 +1,9 @@
 // #[warn(unused_imports)]
-pub mod commands;
+
 // pub mod mafiawolf;
 // pub mod rock;
-
-use commands::start;
+pub mod command;
+use command::start;
 use dotenv::dotenv;
 
 use serenity::async_trait;
